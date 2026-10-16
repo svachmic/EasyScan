@@ -1,0 +1,15 @@
+# SwiftPM build products
+.build/
+.swiftpm/
+
+# App bundle assembled by build.sh
+build/
+
+# Xcode
+*.xcodeproj
+
+# Intermediate iconset made by Packaging/make-icns.sh (AppIcon.icns itself is committed)
+Packaging/AppIcon.iconset/
+
+# macOS
+.DS_Store

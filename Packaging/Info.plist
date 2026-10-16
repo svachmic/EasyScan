@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleName</key>
+	<string>EasyScan</string>
+	<key>CFBundleDisplayName</key>
+	<string>EasyScan</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.michalsvacha.easyscan</string>
+	<key>CFBundleExecutable</key>
+	<string>EasyScan</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>EasyScan saves your scans to ~/Documents/Scans unless you choose another folder.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>EasyScan saves scans to the folder you choose, which may be on your Desktop.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>EasyScan saves scans to the folder you choose, which may be in Downloads.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>EasyScan looks for network scanners on your local network.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Michal Švácha</string>
+</dict>
+</plist>
