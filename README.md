@@ -58,7 +58,9 @@ cd EasyScan
 ./build.sh --install --run
 ```
 
-`build.sh` builds a release binary, assembles `EasyScan.app` with its icon and `Info.plist`, signs it ad hoc, and with `--install` places it in `~/Applications`. There is no notarized download; this is a personal tool.
+`build.sh` builds a release binary, assembles `EasyScan.app` with its icon and `Info.plist`, signs it ad hoc, and with `--install` places it in `~/Applications`.
+
+If you would rather not build, each [release](https://github.com/svachmic/EasyScan/releases) has a zipped app attached. It is signed ad hoc, not notarized, so the first launch needs a right-click → Open (or `xattr -d com.apple.quarantine EasyScan.app`).
 
 ## How it works
 
